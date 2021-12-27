@@ -12,9 +12,11 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --banner-bg-color: #2f303a;
+  --footer-bg-color: #2f303a;
 }
-.page {
+.body {
   color: var(--primary-text-color);
+  font-family: Roboto;
   background-color: var(--primary-bg-color);
 }
 .list {
@@ -31,11 +33,13 @@
   font-size: 26px;
   line-height: 31px;
   color: var(--accent-color);
+  text-decoration: none;
 }
 .logo-decor {
   color: var(--title-text-color);
 }
 .site-nav .link {
+  font-size: 14px;
   color: var(--title-text-color);
 }
 ul .link.current {
@@ -51,6 +55,7 @@ ul .link.current {
 }
 .contacts-nav .link:focus,
 .link:hover {
+  color: var(--accent-color);
   text-decoration: underline;
 }
 /* Баннер на главной странице */
@@ -77,13 +82,13 @@ ul .link.current {
   border-radius: 4px;
   color: #ffffff;
 }
-.section-header {
+.section-title {
   color: var(--title-text-color);
 }
-.hidden {
-  /* Этот клас прячет заголовки */
-}
-.person-title {
+/* .hidden {} Этот клас прячет заголовки */
+
+.person-title,
+.advantage-title {
   color: var(--title-text-color);
 }
 /* Страница портфолио */
@@ -108,3 +113,20 @@ ul .link.current {
   font-weight: bold;
 }
 /* Подвал сайта */
+.footer {
+  background-color: #2f303a;
+}
+.logo-decor-footer {
+  color: #ffffff;
+}
+.address {
+  color: #ffffff;
+  font-style: normal;
+}
+.link.address {
+  color: rgba(255, 255, 255, 0.6);
+}
+.link.address:focus,
+.link.address:hover {
+  color: var(--accent-color);
+}
