@@ -17,8 +17,9 @@
   --footer-bg-color: #2f303a;
 }
 .body {
+  font-family: Roboto, sans-serif;
   color: var(--primary-text-color);
-  font-family: Roboto, Raleway, sans-serif;
+  letter-spacing: 0.03em;
   background-color: var(--primary-bg-color);
 }
 .list {
@@ -26,16 +27,15 @@
 }
 .link {
   font-size: 14px;
-  line-height: 100%;
+  line-height: 114%;
+  letter-spacing: 0.02em;
   text-decoration: none;
 }
 /* Шапка сайта */
 .logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
   font-size: 26px;
-  line-height: 100%;
+  line-height: 120%;
   color: var(--accent-color);
   text-decoration: none;
 }
@@ -74,7 +74,7 @@ ul .link.current {
 .banner-name {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 136%;
   color: var(--dark-bg-text-color);
   text-align: center;
   letter-spacing: 0.06em;
@@ -82,10 +82,12 @@ ul .link.current {
 }
 /* Кнопка на баннере */
 .banner-btn {
+  font-family: inherit;
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 188%;
+  letter-spacing: 0.06em;
   color: var(--dark-bg-text-color);
   width: 200px;
   height: 50px;
@@ -99,41 +101,45 @@ ul .link.current {
 }
 .section-title {
   font-size: 36px;
-  line-height: 100%;
+  line-height: 117%;
   color: var(--title-text-color);
+  text-align: center;
 }
 /* .hidden {} Этот клас прячет заголовки */
 
-.person-title,
-.features-title {
+.features,
+.person {
   color: var(--title-text-color);
 }
-.features-title {
+.features .title {
   font-size: 14px;
-  line-height: 100%;
+  line-height: 114%;
 }
-.features-description {
+.features .text {
   font-size: 14px;
-  line-height: 146%;
+  line-height: 171%;
 }
-.person-title {
+.person .name {
+  font-weight: 500;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 120%;
 }
-.person-proffesion {
+.person .proffesion {
   font-size: 16px;
-  line-height: 100%;
+  line-height: 120%;
 }
-.section.our-team {
+.our-team {
   background: var(--second-bg-color);
 }
+
 /* Страница портфолио */
 /* Кнопки страницы портфолио */
 .btn {
+  font-family: inherit;
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 139%;
+  line-height: 160%;
   color: var(--title-text-color);
   background: #f5f4fa;
   height: 38px;
@@ -147,15 +153,19 @@ ul .link.current {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
+
+/* Текст страницы портфолио */
 .work-title {
   font-size: 18px;
-  line-height: 171%;
+  line-height: 200%;
+  letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .work-name {
   font-size: 16px;
-  line-height: 160%;
+  line-height: 188%;
 }
+
 /* Подвал сайта */
 .footer {
   background-color: var(--footer-bg-color);
@@ -166,7 +176,7 @@ ul .link.current {
 .address {
   font-style: normal;
   font-size: 14px;
-  line-height: 146%;
+  line-height: 170%;
   color: var(--dark-bg-text-color);
 }
 .link.address {
