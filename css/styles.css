@@ -18,16 +18,17 @@
 }
 .body {
   font-family: Roboto, sans-serif;
-  color: var(--primary-text-color);
   letter-spacing: 0.03em;
+  color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
 }
 .list {
   list-style: none;
 }
 .link {
+  font-weight: 500;
   font-size: 14px;
-  line-height: 114%;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
@@ -35,7 +36,7 @@
 .logo {
   font-family: Raleway;
   font-size: 26px;
-  line-height: 120%;
+  line-height: 1.2;
   color: var(--accent-color);
   text-decoration: none;
 }
@@ -74,10 +75,10 @@ ul .link.current {
 .banner-name {
   font-weight: 900;
   font-size: 44px;
-  line-height: 136%;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
   color: var(--dark-bg-text-color);
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 /* Кнопка на баннере */
@@ -86,7 +87,7 @@ ul .link.current {
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
-  line-height: 188%;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--dark-bg-text-color);
   width: 200px;
@@ -101,32 +102,32 @@ ul .link.current {
 }
 .section-title {
   font-size: 36px;
-  line-height: 117%;
+  line-height: 1.2;
   color: var(--title-text-color);
   text-align: center;
 }
 /* .hidden {} Этот клас прячет заголовки */
 
-.features,
-.person {
+.title,
+.name {
   color: var(--title-text-color);
 }
 .features .title {
   font-size: 14px;
-  line-height: 114%;
+  line-height: 1.14;
 }
 .features .text {
   font-size: 14px;
-  line-height: 171%;
+  line-height: 1.71;
 }
 .person .name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 120%;
+  line-height: 1.2;
 }
 .person .proffesion {
   font-size: 16px;
-  line-height: 120%;
+  line-height: 1.2;
 }
 .our-team {
   background: var(--second-bg-color);
@@ -139,10 +140,9 @@ ul .link.current {
   cursor: pointer;
   font-weight: 500;
   font-size: 16px;
-  line-height: 160%;
+  line-height: 1.6;
   color: var(--title-text-color);
   background: #f5f4fa;
-  height: 38px;
   border: 0px;
   border-radius: 4px;
 }
@@ -157,13 +157,13 @@ ul .link.current {
 /* Текст страницы портфолио */
 .work-title {
   font-size: 18px;
-  line-height: 200%;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 .work-name {
   font-size: 16px;
-  line-height: 188%;
+  line-height: 1.88;
 }
 
 /* Подвал сайта */
@@ -175,8 +175,9 @@ ul .link.current {
 }
 .address {
   font-style: normal;
+  font-weight: normal;
   font-size: 14px;
-  line-height: 170%;
+  line-height: 1.7;
   color: var(--dark-bg-text-color);
 }
 .link.address {
