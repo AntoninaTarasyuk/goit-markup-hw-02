@@ -108,24 +108,24 @@ ul .link.current {
 }
 /* .hidden {} Этот клас прячет заголовки */
 
-.title,
-.name {
+.features-title,
+.person-name {
   color: var(--title-text-color);
 }
-.features .title {
+.features-title {
   font-size: 14px;
   line-height: 1.14;
 }
-.features .text {
+.features-text {
   font-size: 14px;
   line-height: 1.71;
 }
-.person .name {
+.person-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
 }
-.person .proffesion {
+.person-proffesion {
   font-size: 16px;
   line-height: 1.2;
 }
